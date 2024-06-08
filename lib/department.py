@@ -177,4 +177,4 @@ class Department:
         rows = CURSOR.fetchall()
         return [
             Employee.instance_from_db(row) for row in rows
-        ]
+        ]#done
